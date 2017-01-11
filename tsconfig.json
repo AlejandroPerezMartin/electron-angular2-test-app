@@ -6,8 +6,5 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true
-  },
-  "files": [
-    "app/app.ts"
-  ]
+  }
 }
