@@ -6,12 +6,14 @@ import { HttpModule } from "@angular/http";
 import { AppComponent } from "./app.component";
 
 import { ServicesModule } from "./services/services.module";
-import { ExpensesModule } from "./expenses/expenses.module";
+import { ExpenseModule } from "./expense/expense.module";
+import { ExpensesListModule } from "./expenses-list/expenses-list.module";
 
 @NgModule({
     imports: [
         BrowserModule,
-        ExpensesModule,
+        ExpenseModule,
+        ExpensesListModule,
         HttpModule,
         ServicesModule.forRoot()
     ],

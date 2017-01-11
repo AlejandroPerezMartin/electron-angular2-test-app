@@ -13,14 +13,16 @@ const platform_browser_1 = require("@angular/platform-browser");
 const http_1 = require("@angular/http");
 const app_component_1 = require("./app.component");
 const services_module_1 = require("./services/services.module");
-const expenses_module_1 = require("./expenses/expenses.module");
+const expense_module_1 = require("./expense/expense.module");
+const expenses_list_module_1 = require("./expenses-list/expenses-list.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     core_1.NgModule({
         imports: [
             platform_browser_1.BrowserModule,
-            expenses_module_1.ExpensesModule,
+            expense_module_1.ExpenseModule,
+            expenses_list_module_1.ExpensesListModule,
             http_1.HttpModule,
             services_module_1.ServicesModule.forRoot()
         ],

@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "app",
-    template: `sddsf<expenses></expenses>`
+    template: `<expense></expense>`
 })
 
 export class AppComponent {}

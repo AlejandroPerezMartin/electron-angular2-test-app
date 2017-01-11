@@ -9,14 +9,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require("@angular/core");
-let AppComponent = class AppComponent {
+const expense_component_1 = require("./expense.component");
+let ExpenseModule = class ExpenseModule {
 };
-AppComponent = __decorate([
-    core_1.Component({
-        selector: "app",
-        template: `<expense></expense>`
+ExpenseModule = __decorate([
+    core_1.NgModule({
+        declarations: [expense_component_1.ExpenseComponent],
+        exports: [expense_component_1.ExpenseComponent]
     }),
     __metadata("design:paramtypes", [])
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], ExpenseModule);
+exports.ExpenseModule = ExpenseModule;
+//# sourceMappingURL=expense.module.js.map

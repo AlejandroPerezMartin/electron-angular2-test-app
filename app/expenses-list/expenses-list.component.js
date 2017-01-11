@@ -9,24 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require("@angular/core");
-const expense_component_1 = require("./expense/expense.component");
-const expenses_list_component_1 = require("./expenses-list/expenses-list.component");
-let ExpensesModule = class ExpensesModule {
+let ExpensesListComponent = class ExpensesListComponent {
 };
-ExpensesModule = __decorate([
-    core_1.NgModule({
-        imports: [],
-        declarations: [
-            expense_component_1.ExpenseComponent,
-            expenses_list_component_1.ExpensesListComponent
-        ],
-        exports: [
-            expense_component_1.ExpenseComponent,
-            expenses_list_component_1.ExpensesListComponent
-        ]
+ExpensesListComponent = __decorate([
+    core_1.Component({
+        selector: "expenses-list",
+        templateUrl: "expenses-list/expenses-list.component.html"
     }),
     __metadata("design:paramtypes", [])
-], ExpensesModule);
-exports.ExpensesModule = ExpensesModule;
-;
-//# sourceMappingURL=expenses.module.js.map
+], ExpensesListComponent);
+exports.ExpensesListComponent = ExpensesListComponent;
+//# sourceMappingURL=expenses-list.component.js.map

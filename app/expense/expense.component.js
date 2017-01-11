@@ -9,14 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require("@angular/core");
-let ExpensesListComponent = class ExpensesListComponent {
+let ExpenseComponent = class ExpenseComponent {
 };
-ExpensesListComponent = __decorate([
+ExpenseComponent = __decorate([
     core_1.Component({
-        selector: "expenses-list",
-        templateUrl: "expenses-list.component.html"
+        selector: "expense",
+        templateUrl: 'expense/expense.component.html'
     }),
     __metadata("design:paramtypes", [])
-], ExpensesListComponent);
-exports.ExpensesListComponent = ExpensesListComponent;
-//# sourceMappingURL=expenses-list.component.js.map
+], ExpenseComponent);
+exports.ExpenseComponent = ExpenseComponent;
+//# sourceMappingURL=expense.component.js.map

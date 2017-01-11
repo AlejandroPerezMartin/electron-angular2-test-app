@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "expense",
-    templateUrl: 'expense.component.html'
+    templateUrl: 'expense/expense.component.html'
 })
 
 export class ExpenseComponent {}
