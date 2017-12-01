@@ -1,5 +1,7 @@
 # Angular 2 + Electron Sample
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AlejandroPerezMartin/electron-angular2-test-app.svg)](https://greenkeeper.io/)
+
 This Angular 2 and Electron sample app is a simple image calculator that lets users drop images in and find their total size.
 
 ![image-size-calculator app](https://cdn.auth0.com/blog/angular2-electron/angular2-electron-5.png)
